@@ -18,7 +18,7 @@ git clone https://github.com/RLmodel/ROS2_Install.git
 ```bash
 cd ~/ROS2_Install
 sudo chmod +x foxy_install.sh
-./humble_install.sh
+./foxy_install.sh
 
 ```
 
