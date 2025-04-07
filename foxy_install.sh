@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 set -eu
 
-# Copyright 2019-2024 Tiryoh
-# https://github.com/Tiryoh/ros2_setup_scripts_ubuntu
-# Licensed under the Apache License, Version 2.0
-#
-# REF: https://index.ros.org/doc/ros2/Installation/Linux-Install-Debians/
-# by Open Robotics, licensed under CC-BY-4.0
-# source: https://github.com/ros2/ros2_documentation
+echo "This script will install ros humble on your PC"
+echo ""
+echo "PRESS [ENTER] TO CONTINUE THE INSTALLATION"
+echo "IF YOU WANT TO CANCEL, PRESS [CTRL] + [C]"
+echo ""
+echo ""
+read
 
 CHOOSE_ROS_DISTRO=foxy
 INSTALL_PACKAGE=desktop
@@ -87,4 +87,12 @@ sh -c "echo \"alias foxy='source /opt/ros/foxy/setup.bash && source ./install/se
 
 source /opt/ros/$CHOOSE_ROS_DISTRO/setup.bash
 
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
 echo "success installing ROS2 $CHOOSE_ROS_DISTRO"
+
+cd ~
+rm -rf ~/ROS2_Install/
+cd
