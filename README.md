@@ -9,9 +9,15 @@
 <br/>
 
 ```bash
+sudo apt update && sudo apt upgrade -y
+```
+<br/>
+
+```bash
 sudo apt install git -y
 ```
 
+<br/>
 
 ```bash
 git clone https://github.com/RLmodel/ROS2_Install.git
