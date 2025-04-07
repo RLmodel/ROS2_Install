@@ -6,6 +6,13 @@
 
 #### clone
 
+<br/>
+
+```bash
+sudo apt install git
+```
+
+
 ```bash
 git clone https://github.com/RLmodel/ROS2_Install.git
 
