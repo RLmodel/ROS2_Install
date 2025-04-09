@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -eu
 
-echo "This script will install ros humble on your PC"
+echo "This script will install ros foxy on your PC"
 echo ""
 echo "PRESS [ENTER] TO CONTINUE THE INSTALLATION"
 echo "IF YOU WANT TO CANCEL, PRESS [CTRL] + [C]"
